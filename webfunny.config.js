@@ -6,11 +6,11 @@
 */
 const licenseConfig = {
   "monitor": {
-    "purchaseCode": "OQPQPRSWWPSTIUVIWZXW", // 监控系统授权码
+    "purchaseCode": "", // 监控系统授权码
     "secretCode": ""  // 解码（没有可不填）
   },
   "event": {
-    "purchaseCode": "OQPQPRSWWPSTIUVIWZXW", // 埋点系统授权码
+    "purchaseCode": "", // 埋点系统授权码
     "secretCode": ""  // 解码（没有可不填）
   }
 }
@@ -43,9 +43,9 @@ const domainConfig = {
 const mysqlConfig = {
   "center": {
     "write": {
-      "ip": "121.4.94.89",
+      "ip": "xx.xx.xx.xx",
       "port": "3306",
-      "dataBaseName": "webfunny_db_20231105222631212",
+      "dataBaseName": "webfunny_db",
       "userName": "webfunny",
       "password": "12345678"
     },
@@ -53,9 +53,9 @@ const mysqlConfig = {
   },
   "monitor": {
     "write": {
-      "ip": "121.4.94.89",
+      "ip": "xx.xx.xx.xx",
       "port": "3306",
-      "dataBaseName": "webfunny_db_20231105222631212",
+      "dataBaseName": "webfunny_db",
       "userName": "webfunny",
       "password": "12345678"
     },
@@ -63,9 +63,9 @@ const mysqlConfig = {
   },
   "event": {
     "write": {
-      "ip": "121.4.94.89",
+      "ip": "xx.xx.xx.xx",
       "port": "3306",
-      "dataBaseName": "webfunny_db_20231105222631212",
+      "dataBaseName": "webfunny_db",
       "userName": "webfunny",
       "password": "12345678"
     },
